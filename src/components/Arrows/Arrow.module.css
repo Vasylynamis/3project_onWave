@@ -1,0 +1,37 @@
+.arrowNext,
+.arrowPrev {
+  /* top: -120%; */
+  top: 0;
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  width: 16px;
+  height: 30px;
+}
+.arrowNext:hover path,
+.arrowNext:focus path,
+.arrowPrev:hover path,
+.arrowPrev:focus path {
+  fill: red;
+}
+.arrowNext {
+  transform: rotate(180deg);
+  left: -20px;
+}
+.arrowPrev {
+  left: 10px;
+}
+
+@media (min-width: 1440px) {
+  .arrowNext,
+  .arrowPrev {
+    width: 40px;
+    height: 74px;
+  }
+  .arrowPrev {
+    left: -10px;
+  }
+  .arrowNext {
+    left: -5px;
+  }
+}

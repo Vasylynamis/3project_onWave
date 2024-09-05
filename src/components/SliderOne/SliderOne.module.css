@@ -1,0 +1,137 @@
+.sliderWrapper {
+  width: clamp(20rem, 0rem + 100vi, 90rem);
+  min-width: 320px;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: clamp(20rem, 0rem + 100vi, 90rem);
+}
+.content {
+  position: absolute;
+  top: 60px;
+  right: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  width: 210px;
+  min-height: 128px;
+}
+.title {
+  width: 210px;
+  min-height: 64px;
+}
+
+.title p {
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: var(--brown-light);
+  text-align: center;
+  min-width: 210px;
+}
+.button {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+
+  border: 2px solid var(--brown-light);
+  padding: 10px 26.5px;
+  width: 175px;
+  min-height: 40px;
+}
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background-color: var(--tomato-light);
+  border: var(--tomato-light);
+}
+
+.headerImg {
+  min-width: 320px;
+  width: clamp(20rem, 0rem + 100vw, 47.938rem);
+}
+
+.customDots {
+  bottom: 20px;
+  right: 50%;
+  display: flex !important;
+  align-items: center;
+  position: absolute;
+  transform: translateX(50%);
+}
+
+.customDot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--dot-inactive);
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.customDotActive {
+  background-color: var(--tomato-light);
+}
+
+@media (min-width: 768px) {
+  .sliderWrapper {
+    min-width: 768px;
+  }
+  .wrapper {
+    min-width: 768px;
+    height: auto;
+    width: clamp(48rem, 0rem + 100vw, 87.438rem);
+  }
+  .headerImg {
+    min-width: 768px;
+    width: clamp(48rem, 0rem + 100vw, 87.438rem);
+  }
+  .content {
+    right: 82px;
+  }
+  .customDot {
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    width: 1440px;
+  }
+  .headerImg {
+    width: 1440px;
+  }
+  .title {
+    width: 350px;
+    min-height: 122px;
+  }
+  .title p {
+    font-size: 50px;
+  }
+  .content {
+    top: 120px;
+    right: 100px;
+    width: 350px;
+    gap: 50px;
+  }
+  .button {
+    font-size: 18px;
+    width: 227px;
+  }
+  .customDots {
+    bottom: 50px;
+  }
+  .customDot {
+    width: 20px;
+    height: 20px;
+    margin: 0 15px;
+  }
+}

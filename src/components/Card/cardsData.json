@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Hagstrom Alvar Limited Edition",
+    "price": "€2.990,00",
+    "images": {
+      "1x": "gitar1.jpg",
+      "2x": "gitar1@2x.jpg",
+      "3x": "gitar1@3x.jpg"
+    },
+    "label": "in stock",
+    "quantity": 1
+  },
+  {
+    "name": "Hagstrom Tremar Viking Deluxe Cloudy Seas",
+    "price": "€1.300,00",
+    "images": {
+      "1x": "gitar2.jpg",
+      "2x": "gitar2@2x.jpg",
+      "3x": "gitar2@3x.jpg"
+    },
+    "label": "in stock",
+    "quantity": 1
+  },
+  {
+    "name": "Gibson Les Paul Standard 60s",
+    "price": "€3.749,00",
+    "images": {
+      "1x": "gitar3.jpg",
+      "2x": "gitar3@2x.jpg",
+      "3x": "gitar3@3x.jpg"
+    },
+    "label": "in stock",
+    "quantity": 1
+  },
+  {
+    "name": "Suhr Standard Plus Trans Blue Denim",
+    "price": "€3.449,00",
+    "images": {
+      "1x": "gitar4.jpg",
+      "2x": "gitar4@2x.jpg",
+      "3x": "gitar4@3x.jpg"
+    },
+    "label": "in stock",
+    "quantity": 0
+  },
+
+  {
+    "name": "Fender Telecaster Black Paisley Limited Edition",
+    "price": "€1.499,00",
+    "images": {
+      "1x": "gitar5.jpg",
+      "2x": "gitar5@2x.jpg",
+      "3x": "gitar5@3x.jpg"
+    },
+    "label": "in stock",
+    "quantity": 0
+  }
+]

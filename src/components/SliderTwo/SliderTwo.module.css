@@ -1,0 +1,50 @@
+.slider-container {
+  width: clamp(20rem, 2.857rem + 85.714vi, 80rem);
+  margin-bottom: 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.customDots {
+  display: flex !important;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.customDot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--dark-dot-inactive);
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.customDotActive {
+  background-color: var(--tomato-light);
+}
+
+@media (min-width: 768px) {
+  .customNextArrow,
+  .customPrevArrow {
+    width: 40px;
+    height: 40px;
+    border: 5px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 110;
+    position: absolute;
+  }
+
+  .customNextArrow {
+    right: 10px;
+  }
+
+  .customPrevArrow {
+    left: 10px;
+  }
+}
